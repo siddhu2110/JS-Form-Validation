@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 250px;
+        border: 2px solid;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        box-shadow: 0px 0px 8px lawngreen;
+      }
+      input {
+        padding: 10px;
+        border-radius: 8px;
+        border-style: none;
+        box-shadow: 0px 0px 6px lightgreen;
+      }
+      #s {
+        background-color: green;
+        width: 100px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <!-- <h1>Form Validations</h1> -->
+      <h1>SignUp form</h1>
+    </center>
+    <center>
+      <form action="https://www.youtube.com" onsubmit="return valid()">
+        <label for="">username</label><br /><br />
+        <input
+          type="text"
+          name=""
+          id="username"
+          placeholder="enter name"
+        /><br /><br />
+        <label for="">password</label><br /><br />
+        <input
+          type="password"
+          name=""
+          id="password"
+          placeholder="enter password"
+        /><br /><br />
+        <label for="">Email</label> <br /><br />
+        <input type="email" name="" id="email" placeholder="enter email" />
+        <br /><br />
+        <label for="">Aadhaar card</label> <br /><br />
+        <input
+          type="text"
+          name=""
+          id="aadhaar"
+          placeholder="enter aadhaar number"
+        />
+        <br /><br />
+        <label for="">pan card</label> <br /><br />
+        <input type="text" name="" id="pan" placeholder="enter pan number" />
+        <br /><br />
+        <input type="submit" name="" id="s" />
+      </form>
+    </center>
+
+    <script src="signup.js"></script>
+  </body>
+</html>
+<!--
+Form:
+collect the information from the user
+
+types of forms:
+ physical forms - through paper - eg: banks,hospitals
+ application forms - web forms
+ login 
+ signup
+ signin
+
+ url forms - (uniform resorce locator) - through links - eg:job applications,feedback forms
+
+ form
+ action - what will happened next
+ method -  get and host will be their
+
+ label - for
+ input - type,id,name,value,size,placeholder,required,minlength,
+         maxlength,autofocus,pattern,disabled
+
+ validation - checks the user input is matching with pattern or not
+ verification - check the user identity
+ authentication - 
+ authorization - access control
+ 
+
+
+
+
+
+
+
+
+
+
+
+-->
